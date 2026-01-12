@@ -35,10 +35,11 @@ export default function Header() {
                     </Link>
 
                     {/* Desktop Address */}
-                    <div className="hidden md:flex items-center gap-6">
+                    {/* Address & WhatsApp */}
+                    <div className="flex flex-col md:flex-row items-end md:items-center gap-2 md:gap-6 mt-2 md:mt-0">
                         <div className="flex items-center gap-2">
                             <MapPin className="w-4 h-4 text-primary" />
-                            <span className="text-sm text-gray-700">
+                            <span className="text-xs md:text-sm text-black md:text-gray-700 text-right md:text-left">
                                 <span className="font-semibold text-primary">Dubai:</span> Office No 147, Emarat Atrium, Sheikh Zayed Road - E11
                             </span>
                         </div>
@@ -47,9 +48,9 @@ export default function Header() {
                             href="https://wa.me/971542763828?text=Hi!%20I'm%20interested%20in%20the%201,000%20AED%20website%20deal.%20Please%20share%20more%20details."
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-[#25D366] hover:bg-[#20bd5a] text-white px-5 py-2 rounded-full font-bold text-sm flex items-center gap-2 transition-all shadow-md hover:shadow-lg"
+                            className="bg-[#25D366] hover:bg-[#20bd5a] text-white px-4 py-1.5 md:px-5 md:py-2 rounded-full font-bold text-xs md:text-sm flex items-center gap-2 transition-all shadow-md hover:shadow-lg"
                         >
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-5 h-5 filter brightness-0 invert" />
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-4 h-4 md:w-5 md:h-5 filter brightness-0 invert" />
                             WhatsApp Now
                         </a>
                     </div>
