@@ -23,6 +23,11 @@ export default function FeatureGrid() {
         <section className="py-20 bg-gray-50">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
+                    <div className="flex justify-center mb-6">
+                        <span className="bg-red-50 text-red-600 border border-red-200 px-4 py-1.5 rounded-full text-sm font-bold tracking-wide uppercase">
+                            Limited New Year Offer
+                        </span>
+                    </div>
                     <h2 className="text-3xl lg:text-5xl font-display font-bold mb-4">Everything You Need. One Simple Price.</h2>
                     <p className="text-gray-600">Most agencies charge extra for these. They're <span className="font-bold text-primary">ALL included</span> in your 1,000 AED.</p>
                 </div>
