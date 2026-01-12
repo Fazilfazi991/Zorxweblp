@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
                             <Clock className="w-6 h-6" />
                         </div>
                         <h3 className="font-bold text-lg mb-2">FASTEST DELIVERY</h3>
-                        <p className="text-sm text-gray-500">We deliver in 2 days. We have streamlined our process for speed.</p>
+                        <p className="text-sm text-gray-500">We deliver in 5 days. We have streamlined our process for speed.</p>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -69,7 +69,7 @@ export default function WhyChooseUs() {
                 <div className="bg-blue-900 text-white rounded-2xl p-8 max-w-4xl mx-auto text-center relative overflow-hidden">
                     <div className="relative z-10">
                         <h3 className="text-2xl font-bold mb-4">OUR GUARANTEE TO YOU</h3>
-                        <p className="mb-4">If we don't deliver in 2 days, you get 500 AED discount.</p>
+                        <p className="mb-4">If we don't deliver in 5 days, you get 500 AED discount.</p>
                         <p className="text-blue-200">If you're not happy, we refund you 100%. No questions asked.</p>
                     </div>
                     {/* Decor */}

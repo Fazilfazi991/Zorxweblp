@@ -11,7 +11,7 @@ export default function UrgencySection() {
 
                 <div className="bg-red-50 border border-red-200 rounded-2xl p-8 max-w-3xl mx-auto">
                     <p className="text-xl text-gray-800 mb-6 font-medium">
-                        We can only take on <span className="font-bold">20 projects per month</span> to maintain our 2-day delivery promise.
+                        We can only take on <span className="font-bold">20 projects per month</span> to maintain our 5-day delivery promise.
                     </p>
 
 

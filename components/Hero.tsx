@@ -45,7 +45,7 @@ export default function Hero() {
                             transition={{ delay: 0.1 }}
                             className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0"
                         >
-                            Live in 2 Days. Yours Forever. Custom design, SEO optimized, and 1 year FREE support. No hidden fees.
+                            Live in 5 Days. Yours Forever. Custom design, SEO optimized, and 1 year FREE support. No hidden fees.
                         </motion.p>
 
                         <motion.div

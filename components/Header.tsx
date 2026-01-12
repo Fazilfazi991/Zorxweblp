@@ -39,7 +39,7 @@ export default function Header() {
                     <div className="flex flex-col md:flex-row items-end md:items-center gap-2 md:gap-6 mt-2 md:mt-0">
                         <div className="flex items-center gap-2">
                             <MapPin className="w-4 h-4 text-primary" />
-                            <span className="text-xs md:text-sm text-black md:text-gray-700 text-right md:text-left">
+                            <span className="text-xs md:text-sm text-black font-medium text-right md:text-left">
                                 <span className="font-semibold text-primary">Dubai:</span> Office No 147, Emarat Atrium, Sheikh Zayed Road - E11
                             </span>
                         </div>

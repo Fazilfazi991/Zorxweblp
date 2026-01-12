@@ -56,7 +56,7 @@ export default function PainSolution() {
                             </li>
                             <li className="flex items-start gap-3 text-gray-800 font-medium">
                                 <Check className="w-5 h-5 text-primary shrink-0 mt-1" />
-                                Ready in 2 days, guaranteed
+                                Ready in 5 days, guaranteed
                             </li>
                             <li className="flex items-start gap-3 text-gray-800 font-medium">
                                 <Check className="w-5 h-5 text-primary shrink-0 mt-1" />

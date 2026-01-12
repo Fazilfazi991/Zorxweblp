@@ -4,7 +4,7 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 
 const faqs = [
     { q: "Is 1,000 AED really all I pay?", a: "Yes, 1,000 AED total. This includes design, development, hosting for first year, domain setup, SSL, and content. The ONLY additional cost is domain registration (50-100 AED/year). After year 1, hosting is 300 AED/year optional." },
-    { q: "Can you really deliver a custom website in 2 days?", a: "Yes! We use optimized React components and a professional team working in parallel. Quality is never compromised." },
+    { q: "Can you really deliver a custom website in 5 days?", a: "Yes! We use optimized React components and a professional team working in parallel. Quality is never compromised." },
     { q: "What if I need changes after the website is live?", a: "We include 1 year FREE support. Just WhatsApp us for text/image updates or fixes. Free of charge." },
     { q: "Will my website work on mobile phones?", a: "100% yes. Mobile-first design is our standard. It looks perfect on all devices." },
     { q: "Is it really SEO optimized?", a: "Yes. Technical SEO (meta tags, sitemaps, fast loading) is built-in. We also provide 3-4 blog articles." },
