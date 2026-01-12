@@ -39,14 +39,25 @@ export default function Hero() {
                             Professional Website for Just <span className="text-primary">1,000 AED</span>
                         </motion.h1>
 
-                        <motion.p
+                        <motion.ul
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.1 }}
-                            className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0"
+                            className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 space-y-3"
                         >
-                            Live in 5 Days. Yours Forever. Custom design, SEO optimized, and 1 year FREE support. No hidden fees.
-                        </motion.p>
+                            <li className="flex items-center gap-3 justify-center lg:justify-start">
+                                <Check className="w-5 h-5 text-primary shrink-0" />
+                                <span>Live in <span className="font-semibold text-gray-900">5 Days</span>. Yours Forever.</span>
+                            </li>
+                            <li className="flex items-center gap-3 justify-center lg:justify-start">
+                                <Check className="w-5 h-5 text-primary shrink-0" />
+                                <span>Custom design & SEO optimized.</span>
+                            </li>
+                            <li className="flex items-center gap-3 justify-center lg:justify-start">
+                                <Check className="w-5 h-5 text-primary shrink-0" />
+                                <span>1 year FREE support. No hidden fees.</span>
+                            </li>
+                        </motion.ul>
 
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
@@ -58,10 +69,16 @@ export default function Hero() {
                                 href="https://wa.me/971542763828?text=Hi!%20I'm%20interested%20in%20the%201,000%20AED%20website%20deal.%20Please%20share%20more%20details."
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-primary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
+                                className="bg-primary hover:bg-green-600 text-white px-6 py-3 rounded-lg font-bold text-lg flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 whitespace-nowrap"
                             >
                                 Contact Us Now
                                 <ArrowRight className="w-5 h-5" />
+                            </a>
+                            <a
+                                href="#portfolio"
+                                className="bg-white hover:bg-gray-50 text-gray-900 border-2 border-gray-200 px-6 py-3 rounded-lg font-bold text-lg flex items-center justify-center gap-2 transition-all hover:border-gray-300 hover:-translate-y-1 whitespace-nowrap"
+                            >
+                                Our recent Projects
                             </a>
 
                         </motion.div>

@@ -18,7 +18,7 @@ export default function PainSolution() {
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3 text-gray-700">
                                 <X className="w-5 h-5 text-red-500 shrink-0 mt-1" />
-                                Charged 10,000 - 50,000 AED
+                                Charged 3,000 - 10,000 AED
                             </li>
                             <li className="flex items-start gap-3 text-gray-700">
                                 <X className="w-5 h-5 text-red-500 shrink-0 mt-1" />
