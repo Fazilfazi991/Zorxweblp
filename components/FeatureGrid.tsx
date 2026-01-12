@@ -59,9 +59,14 @@ export default function FeatureGrid() {
                         <div className="flex items-center gap-2"><span className="text-green-500">✓</span> Backups</div>
                         <div className="flex items-center gap-2"><span className="text-green-500">✓</span> Direct WhatsApp support</div>
                     </div>
-                    <button className="mt-8 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all">
+                    <a
+                        href="https://wa.me/971542763828?text=Hi!%20I'm%20interested%20in%20the%201,000%20AED%20website%20deal.%20Please%20share%20more%20details."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-8 inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all"
+                    >
                         YES! I WANT MY WEBSITE →
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

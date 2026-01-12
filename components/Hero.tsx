@@ -54,10 +54,15 @@ export default function Hero() {
                             transition={{ delay: 0.2 }}
                             className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
                         >
-                            <button className="bg-primary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
+                            <a
+                                href="https://wa.me/971542763828?text=Hi!%20I'm%20interested%20in%20the%201,000%20AED%20website%20deal.%20Please%20share%20more%20details."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-primary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
+                            >
                                 Contact Us Now
                                 <ArrowRight className="w-5 h-5" />
-                            </button>
+                            </a>
 
                         </motion.div>
 
