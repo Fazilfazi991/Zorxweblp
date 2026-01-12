@@ -44,15 +44,7 @@ export default function Header() {
                             </span>
                         </div>
 
-                        <a
-                            href="https://wa.me/971542763828?text=Hi!%20I'm%20interested%20in%20the%201,000%20AED%20website%20deal.%20Please%20share%20more%20details."
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-[#25D366] hover:bg-[#20bd5a] text-white px-4 py-1.5 md:px-5 md:py-2 rounded-full font-bold text-xs md:text-sm flex items-center gap-2 transition-all shadow-md hover:shadow-lg"
-                        >
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-4 h-4 md:w-5 md:h-5 filter brightness-0 invert" />
-                            WhatsApp Now
-                        </a>
+
                     </div>
                 </div>
             </div>
