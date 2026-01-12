@@ -24,7 +24,7 @@ export default function Hero() {
         return () => clearInterval(interval);
     }, []);
     return (
-        <section className="relative bg-white pt-20 pb-32 overflow-hidden">
+        <section className="relative bg-white pt-20 pb-12 overflow-hidden">
             <div className="container mx-auto px-4 relative z-10">
                 <div className="flex flex-col lg:flex-row items-center gap-12">
                     {/* Text Content */}
